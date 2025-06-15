@@ -6,7 +6,6 @@ export default function Home() {
       <nav className={styles.navbar}>
         <div className={styles.logoArea}>
           <img src="/logo.png" alt="English Ready logo" width={240} height={140} className={styles.logoImg} />
-
         </div>
         <ul className={styles.navLinks}>
           <li><a href="#">About</a></li>
