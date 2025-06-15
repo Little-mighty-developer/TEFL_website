@@ -65,24 +65,7 @@ default = true
 name = "checkov"
 
 [[plugin]]
-name = "eslint"
-version = "8.57.1"
-package_file = "package.json"
-package_filters = ["eslint"]
-
-[[plugin]]
-name = "markdownlint"
-mode = "comment"
-
-[[plugin]]
-name = "osv-scanner"
-
-[[plugin]]
 name = "prettier"
-
-[[plugin]]
-name = "radarlint-iac"
-mode = "monitor"
 
 [[plugin]]
 name = "radarlint-js"
@@ -92,16 +75,9 @@ name = "ripgrep"
 mode = "comment"
 
 [[plugin]]
-name = "shellcheck"
-
-[[plugin]]
-name = "shfmt"
-
-[[plugin]]
 name = "trivy"
 drivers = [
   "config",
-  "fs-vuln",
 ]
 
 [[plugin]]
